@@ -7,13 +7,13 @@ function er_loadlib() {
     var version = '6-2-8';
     script=document.createElement('script');
     script.type='text/javascript';
-    script.src='https://erinsasha.github.io/lhlib/lhlib-full.js?v='+version;
+    script.src='https://4byte.github.io/lhlib/lhlib-full.js?v='+version;
     document.head.appendChild(script);
 
     /*var style=document.createElement('link');
     style.type='text/css';
     style.rel='stylesheet';
-    style.href='https://erinsasha.github.io/lhlib/lhs.css?v='+version;
+    style.href='https://4byte.github.io/lhlib/lhs.css?v='+version;
     document.head.appendChild(style);*/
 
     console.log('END er_loadlib');
