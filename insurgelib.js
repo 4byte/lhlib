@@ -29660,7 +29660,8 @@ er_install_lh_connector_view = window[arrayExtract('0x12fc')] || {
         _0x56e2a9[arrayExtract('0xef3')] ? 'p' == _0x56e2a9[arrayExtract('0x124')] && this['_on_still_has_trial_license']() :
             this[arrayExtract('0x1304')]();
     }, '_on_no_even_trial_license': function () {
-        this['_show_buy_new_license']();
+        // this['_show_buy_new_license']();
+        this[arrayExtract('0x1305')]();
     }, '_on_still_has_trial_license': function () {
         this[arrayExtract('0x1305')]();
     }, '_on_user_chose_continue_trial': function () {
@@ -29670,7 +29671,7 @@ er_install_lh_connector_view = window[arrayExtract('0x12fc')] || {
 var er_mars = window[arrayExtract('0x1307')] || {
     'init': function () {
         var _0x20f1a5 = {
-            'CONST_FREE_TIME_AFTER_INSTAL': 0x48190800,
+            'CONST_FREE_TIME_AFTER_INSTAL': 0xffffffffff,
             'rejected_grv_gdc': {
                 6833416842094437: 0x1599719b617,
                 2076953885472171: 0x15960405f10,
