@@ -1,0 +1,66 @@
+{
+  "manifest_version": 2,
+  "name": "Linked Helper - INDEPENDENT",
+  "short_name": "Linked Helper",
+  "description": "Add thousands targeted contacts, Auto-Visit & save profiles to CSV File, Sequential messaging, Improve your profile",
+  "version": "50.3.5",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "browsingData",
+    "storage",
+    "unlimitedStorage",
+    "http://linkedin.com/*",
+    "https://linkedin.com/*",
+    "http://*.linkedin.com/*",
+    "https://*.linkedin.com/*",
+    "http://www.linkedin.com/*",
+    "https://www.linkedin.com/*",
+    "https://linkedhelper.com/*",
+    "https://erinsasha.github.io/*",
+    "https://code.ionicframework.com/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon-19.png",
+      "38": "images/icon-38.png"
+    },
+    "default_title": "__MSG_toolbar_button__",
+    "default_popup": "html/popup.html"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "content_security_policy": "script-src 'self' https://linkedhelper.com https://erinsasha.github.io https://freegeoip.net https://ssl.google-analytics.com https://ajax.googleapis.com; object-src 'self'",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://linkedin.com/*",
+        "https://linkedin.com/*",
+        "http://*.linkedin.com/*",
+        "https://*.linkedin.com/*"
+      ],
+      "css": [
+        "styles/main.css"
+      ],
+      "js": [
+        "js/jquery.js",
+        "js/er_injected.js",
+        "js/erlhserver.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "externally_connectable": {
+    "matches": ["*://*.linkedin.com/*", "*://linkedin.com/*"]
+  }
+}
