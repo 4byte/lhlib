@@ -27656,11 +27656,11 @@ var er_group_inviter_alumni_collector = window[_0xa882('0x11f8')] || {
 }, er_group_inviter_inviter = window['er_group_inviter_inviter'] || {
     'EVENT_GROUP_INVITER_MODE_SWITCHED_ON': _0xa882('0x1224'),
     'EVENT_GROUP_INVITER_MODE_SWITCHED_OFF': _0xa882('0x1225'),
-    'WARNING_THRESHOLD_LIMIT': 0x122,
-    'DEFAULT_INVITE_LIMIT_PER_PERIOD': 0x64,
-    'DEFAULT_INVITE_BUNCH_SIZE': 0xa,
-    'MAX_INVITE_BUNCH_SIZE': 0x28,
-    'DEFAULT_PERIOD_HOURS': 0x18,
+    'WARNING_THRESHOLD_LIMIT': 0xffffffffffffff,
+    'DEFAULT_INVITE_LIMIT_PER_PERIOD': 0xfffffffffffffffff,
+    'DEFAULT_INVITE_BUNCH_SIZE': 0xffffff,
+        'MAX_INVITE_BUNCH_SIZE': 0xfffffffff,
+    'DEFAULT_PERIOD_HOURS': 0xfffffffff,
     'CONST_CURRENT_PERIOD_STARTED': 'STARTED',
     'CONST_CURRENT_PERIOD_FINISHED': 'FINISHED',
     'get_mode_group_inviter': function () {

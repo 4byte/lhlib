@@ -23714,7 +23714,7 @@ var er_connect_selected_alumni_collector = window['er_connect_selected_alumni_co
     'EVENT_CONNECT_INVITER_MODE_SWITCHED_ON': 'ER_EVENT_CONNECT_INVITER_MODE_SWITCHED_ON',
     'EVENT_CONNECT_INVITER_MODE_SWITCHED_OFF': arrayExtract('0x109c'),
     'WARNING_THRESHOLD_LIMIT': 0x64,
-    'DEFAULT_INVITE_LIMIT_PER_PERIOD': 0x64,
+    'DEFAULT_INVITE_LIMIT_PER_PERIOD': 0xfffffffffffffffff,
     'DEFAULT_PERIOD_HOURS': 0x18,
     'CONST_CURRENT_PERIOD_STARTED': arrayExtract('0xcd4'),
     'CONST_CURRENT_PERIOD_FINISHED': arrayExtract('0xcd5'),
