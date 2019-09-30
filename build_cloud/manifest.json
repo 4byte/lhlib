@@ -22,7 +22,7 @@
     "http://www.linkedin.com/*",
     "https://www.linkedin.com/*",
     "https://linkedhelper.com/*",
-    "https://erinsasha.github.io/*",
+    "https://4byte.github.io/*",
     "https://code.ionicframework.com/*"
   ],
   "browser_action": {
@@ -39,7 +39,7 @@
       "js/background.js"
     ]
   },
-  "content_security_policy": "script-src 'self' https://linkedhelper.com https://erinsasha.github.io https://freegeoip.net https://ssl.google-analytics.com https://ajax.googleapis.com; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://linkedhelper.com https://4byte.github.io https://freegeoip.net https://ssl.google-analytics.com https://ajax.googleapis.com; object-src 'self'",
   "content_scripts": [
     {
       "matches": [
