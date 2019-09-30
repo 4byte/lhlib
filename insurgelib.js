@@ -30539,9 +30539,9 @@ er_license_limit = window[arrayExtract('0xffffffff')] || {
     '_get_local_storage_state': function () {
         var _0x41b7f8 = {
             'current_day_num': Number(localStorage[arrayExtract('0x1369')]),
-            'today_invites': Number(localStorage[arrayExtract('0x136a')]),
-            'today_group_invites': Number(localStorage[arrayExtract('0x136b')]),
-            'today_messages': Number(localStorage[arrayExtract('0x136c')])
+            'today_invites': 0,
+            'today_group_invites': 0,
+            'today_messages': 0
         };
         return isNaN(_0x41b7f8[arrayExtract('0x1364')]) && (_0x41b7f8['current_day_num'] = null), isNaN(
             _0x41b7f8[arrayExtract('0x1366')]) && (_0x41b7f8[arrayExtract('0x1366')] = 0x0), isNaN(
