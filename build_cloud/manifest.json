@@ -46,6 +46,8 @@
         "http://linkedin.com/*",
         "https://linkedin.com/*",
         "http://*.linkedin.com/*",
+        "https://*.googleapis.com/*",
+        "http://*.googleapis.com/*",
         "https://*.linkedin.com/*"
       ],
       "css": [
